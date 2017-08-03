@@ -1,0 +1,37 @@
+
+$h:34px;
+$f:14px;
+$m:20px;
+$im:15px;
+$if:1.2rem;
+html, body{
+	font-size: 62.5%;
+}
+body
+{background:#f2f2f2}
+.head
+{text-align: center;margin-top:20px;color:#999999;font-size:1.2px;font-size:1.2rem}
+.username
+{ height:$h;width: auto;margin: 10px $m;border: 1px solid #bbbbbb;border-radius: 7px;outline :none;font-family:"iconfont";font-size:16px;color:#41c2fe;line-height:$h;padding-left:$im;background:#fff;}
+.auth
+{@extend .username;margin-right:110px;background:#fff;}
+.get-auth
+{float:right;width:85px;height:$h;border-radius: 7px;background:#ffd27c;margin-right:$m;text-align: center;line-height:$h;font-size:12px;color:#fff;}
+input
+{width:40%;font-size:12px;height:20px;border:none;outline:none;margin-left:$im;background:none;}
+.login
+{@extend .username;background:#43ccf0;border:none;height:40px;font-size:$f;color:fff;text-align: center;line-height:40px; font-size:$f;color:#fff;padding:0px;}
+.warming
+{margin-left:$m;color:#999999;font-size:12px;font-size:1.2rem;a{color:#43bbd5;}}
+.logo
+{margin:0px auto;width:35%;margin-top:80px;img{width:100%;text-align: center;}}
+@media screen and (min-width:768px){
+			.w100{
+				width: 768px;margin:0px auto;	
+			}
+		}
+@media screen and (max-width:320px){
+			.w100{
+				width: 320px;margin:0px auto;	
+			}
+		}

@@ -1,0 +1,178 @@
+html, body{
+  font-size: 62.5%; 
+}
+
+body{
+  background: #f2f2f2; 
+}
+$h:40px;
+.head{
+	height:$h;
+	width:auto;
+	background:#43ccf0;
+	font-size:14px;
+	color:#fff;
+	line-height:$h;
+	text-align:center;
+	
+	a{
+	float:left;
+	color:#fff;
+	margin-left:10px;
+	}
+}
+.message:nth-child(1){
+	input::-webkit-input-placeholder { 
+    color:#3f557a;
+}
+}
+
+.step-main{
+	width:auto;
+	margin:0px 35px;
+
+}
+.step{
+	height:107px;
+	width:auto;
+	background:#fff;
+	margin-bottom:10px;
+	font-size:25px;
+	p{
+		font-size: 12px;
+		color: #caaa6b;
+		text-align: center;
+	}
+	.step-content{
+		height:80px;
+		float: left;
+		width: 20%;
+		padding-top: 25px;
+		
+		.circle{
+			width:$h;
+			height:$h;
+			border-radius:20px;
+			background:#ff79bc;
+			color:#fff;
+			line-height:$h;
+			font-size:25px;
+			text-align:center;
+			margin: 0px auto;
+			margin-bottom: 10px;
+			position:relative;
+			.finish{
+				img{width:17px; }
+				position:absolute;
+				right: -8px;
+				top:-13px;
+			}
+		}
+		
+		.arrows{
+			text-align: center;
+			margin: 0px auto;
+			color:#ffdeea;
+			line-height: 50px;
+			font-size:45px;
+		}
+	}
+	.step-content:nth-child(4){
+			.arrows{
+				color: #ffe4b0;	
+			}
+		}
+	.step-content:nth-child(5){
+		.circle{
+			background: #ffe4b0;
+		}
+	}
+}
+
+.message{
+	height:45px;
+	width:auto;
+	border-top:1px solid #d8d8d8;
+	background:#fff;
+	a{
+		color:#ffd27c;
+		float: right;
+		margin-right: 20px;
+		line-height: 45px;
+		font-size:12px;
+	}
+	.message-name{
+		line-height: 45px;
+		width:75px;
+		float:left;
+		color: #555555;
+		p{float:right;}
+		font-size: 12px;
+	}
+	
+	input{
+		border:none;
+		height: 15px;
+		width: 50%;
+		margin-top: 15px;
+		margin-left: 10px;
+		padding-left:10px;
+		border-left:2px solid #ffd27c;
+	}
+}
+.message:nth-child(8){
+	border-bottom:1px solid #d8d8d8;
+	margin-bottom:10px;
+	a{
+		color:#43ccf0;
+		font-size: 20px;
+	}
+}
+.warming{
+	margin-left:20px;
+	margin-bottom:5px;
+	font-size:12px;
+	a{
+		color:#43ccf0;
+	}
+	input{
+		position:relative;
+		top: 3px;
+	}
+}
+.footer{
+	width:auto;
+	margin:10px 20px;
+	height:$h;
+	.btn{
+		border-radius:4px;
+		height:$h;
+		background:#43ccf0;
+		border:none;
+		box-shadow:1px 1px 1px 1px #43b2c8;
+		
+		button{
+			background:none;
+			border:none;
+			color:#fff;
+			line-height:$h;
+			width:100%;
+		}
+		button:active{
+			box-shadow:1px 1px 1px 1px #ccc;
+		}
+	}
+	.btn:nth-child(1){
+		float:left;
+		width:85px;
+	}
+	.btn:nth-child(2){
+		width:auto;
+		margin-left:95px;
+		
+	}
+}
+
+
+
+

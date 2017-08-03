@@ -1,0 +1,141 @@
+html, body {
+  font-size: 62.5%; }
+
+body {
+  background: #f2f2f2; }
+
+.head {
+  height: 40px;
+  width: auto;
+  background: #43ccf0;
+  font-size: 14px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center; }
+  .head a {
+    float: left;
+    color: #fff;
+    margin-left: 10px; }
+
+.message:nth-child(1) input::-webkit-input-placeholder {
+  color: #3f557a; }
+
+.step-main {
+  width: auto;
+  margin: 0px 35px; }
+
+.step {
+  height: 107px;
+  width: auto;
+  background: #fff;
+  margin-bottom: 10px;
+  font-size: 25px; }
+  .step p {
+    font-size: 12px;
+    color: #caaa6b;
+    text-align: center; }
+  .step .step-content {
+    height: 80px;
+    float: left;
+    width: 20%;
+    padding-top: 25px; }
+    .step .step-content .circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      background: #ff79bc;
+      color: #fff;
+      line-height: 40px;
+      font-size: 25px;
+      text-align: center;
+      margin: 0px auto;
+      margin-bottom: 10px;
+      position: relative; }
+      .step .step-content .circle .finish {
+        position: absolute;
+        right: -8px;
+        top: -13px; }
+        .step .step-content .circle .finish img {
+          width: 17px; }
+    .step .step-content .arrows {
+      text-align: center;
+      margin: 0px auto;
+      color: #ffdeea;
+      line-height: 50px;
+      font-size: 45px; }
+  .step .step-content:nth-child(4) .arrows {
+    color: #ffe4b0; }
+  .step .step-content:nth-child(5) .circle {
+    background: #ffe4b0; }
+
+.message {
+  height: 45px;
+  width: auto;
+  border-top: 1px solid #d8d8d8;
+  background: #fff; }
+  .message a {
+    color: #ffd27c;
+    float: right;
+    margin-right: 20px;
+    line-height: 45px;
+    font-size: 12px; }
+  .message .message-name {
+    line-height: 45px;
+    width: 75px;
+    float: left;
+    color: #555555;
+    font-size: 12px; }
+    .message .message-name p {
+      float: right; }
+  .message input {
+    border: none;
+    height: 15px;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 2px solid #ffd27c; }
+
+.message:nth-child(8) {
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 10px; }
+  .message:nth-child(8) a {
+    color: #43ccf0;
+    font-size: 20px; }
+
+.warming {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 12px; }
+  .warming a {
+    color: #43ccf0; }
+  .warming input {
+    position: relative;
+    top: 3px; }
+
+.footer {
+  width: auto;
+  margin: 10px 20px;
+  height: 40px; }
+  .footer .btn {
+    border-radius: 4px;
+    height: 40px;
+    background: #43ccf0;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #43b2c8; }
+    .footer .btn button {
+      background: none;
+      border: none;
+      color: #fff;
+      line-height: 40px;
+      width: 100%; }
+    .footer .btn button:active {
+      box-shadow: 1px 1px 1px 1px #ccc; }
+  .footer .btn:nth-child(1) {
+    float: left;
+    width: 85px; }
+  .footer .btn:nth-child(2) {
+    width: auto;
+    margin-left: 95px; }
+
+/*# sourceMappingURL=rent.css.map */
