@@ -137,5 +137,7 @@ body {
   .footer .btn:nth-child(2) {
     width: auto;
     margin-left: 95px; }
-
+input,button{
+    outline: none;
+}
 /*# sourceMappingURL=rent.css.map */
